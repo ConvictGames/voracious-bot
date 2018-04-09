@@ -6,8 +6,13 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.reply('pong');
+    if (message.content === 'Voracious W') {
+    	message.reply('Win');
+  	}
+});
+client.on('message', message => {
+    if (message.content === 'Voracious L') {
+    	message.reply('Loss');
   	}
 });
 
