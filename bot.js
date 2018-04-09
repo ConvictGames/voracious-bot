@@ -7,12 +7,12 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Voracious W') {
-    	client.send_message('Win');
+    	send_message('Win');
   	}
 });
 client.on('message', message => {
     if (message.content === 'Voracious L') {
-    	client.send_message('Loss');
+    	send_message('Loss');
   	}
 });
 
