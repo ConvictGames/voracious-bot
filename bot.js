@@ -8,9 +8,6 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'VCS L') {
     	message.reply('Testing Loss');
-client.on('message', message => {
-    if (message.content === 'VCS W') {
-    	message.reply('Testing Won');
   	}
 });
 
