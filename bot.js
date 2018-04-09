@@ -6,8 +6,10 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Voracious W') {
-    	wait message.send('Voracious Wins!');
+    if (message.content === 'ping') {
+    	client.message.send('pong');
   	}
 });
+
+
 client.login(process.env.BOT_TOKEN);
