@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'ping') {
-    	message.channel.send('pong');
+    if (message.content === 'Voracious W') {
+    	message.voracious.send('+1 for Voracious');
   	}
 });
 
