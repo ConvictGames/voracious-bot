@@ -8,8 +8,6 @@ client.on('ready', () => {
 client.on('message', message => {
     if (message.content === 'Voracious W') {
     	client.reply('Win');
-  	}
-});
 client.on('message', message => {
     if (message.content === 'Voracious L') {
     	client.send('Loss');
