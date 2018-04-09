@@ -7,10 +7,9 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Voracious W') {
-    	var channel = client.servers.get("voracious", "Clan Wars").defaultChannel;
-client.sendMessage(channel, "Hello");
+    	message.send('+1 for Voracious ');
   	}
 });
 
-// THIS  MUST  BE  THIS  WAY
+
 client.login(process.env.BOT_TOKEN);
