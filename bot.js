@@ -5,10 +5,9 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-chatroom.on('message', function(msg){
-    if(msg.content === 'ping'){
-        msg.reply('pong');
-    }
+client.on('message', message => {
+    if (message.content === 'Voracious W') {
+    	wait message.send('Voracious Wins!');
+  	}
 });
-
 client.login(process.env.BOT_TOKEN);
