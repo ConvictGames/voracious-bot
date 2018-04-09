@@ -31,24 +31,24 @@ loop = asyncio.get_event_loop()
 @client.event
 async def on_message(message):
     if 'Voracious W' in message.content:
-        await client.send_message(message.channel, "")
+        await client.send_message(message.channel, "W")
     if 'Voracious L' in message.content:
-        await client.send_message(message.channel, ")
+        await client.send_message(message.channel, "L")
     if 'Lacuna W' in message.content:
-        await client.send_message(message.channel, "")
+        await client.send_message(message.channel, "W")
     if 'Lacuna L' in message.content:
-        await client.send_message(message.channel, "")
+        await client.send_message(message.channel, "L")
     if 'TRIX W' in message.content:
-        await client.send_message(message.channel, "")
+        await client.send_message(message.channel, "W")
     if 'TRIX L' in message.content:
-        await client.send_message(message.channel, "")
+        await client.send_message(message.channel, "L")
     if 'Perihelion W' in message.content:
-        await client.send_message(message.channel, "")
+        await client.send_message(message.channel, "W")
     if 'Perihelion L' in message.content:
-        await client.send_message(message.channel, "")        
+        await client.send_message(message.channel, "L")        
     if '3DT W' in message.content:
-        await client.send_message(message.channel, "")
+        await client.send_message(message.channel, "W")
     if '3DT L' in message.content:
-        await client.send_message(message.channel, "")
+        await client.send_message(message.channel, "L")
         
 loop.run_forever()
