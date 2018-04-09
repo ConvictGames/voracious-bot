@@ -7,7 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Voracious W') {
-    	message.send('+1 for Voracious ');
+    	client.sendMessage(channel, "+1 for Voracious");
   	}
 });
 
