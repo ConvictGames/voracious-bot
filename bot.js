@@ -5,13 +5,12 @@ client.on('ready', () => {
     console.log('I am ready!');
 });
 
-if client.on('message', message => {
-    if message.content === 'Voracious W'){
-        (message.channel.id === '432998067013419050')
-        message.send('+1 for Voracious');
-        }
-    }
+client.on('message', message => {
+    if (message.content === 'Voracious W') {
+    	var channel = client.servers.get("voracious", "Clan Wars").defaultChannel;
+client.sendMessage(channel, "Hello");
+  	}
 });
 
-
+// THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
