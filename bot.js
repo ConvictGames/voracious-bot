@@ -6,8 +6,8 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'A') {
-    	client.message.send('A');
+    if (message.content === 'Voracious W') {
+    	client.message.send('Voracious Wins!');
   	}
 });
 
