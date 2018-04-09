@@ -6,16 +6,9 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Voracious L') {
-    	message.reply('Better luck next time');
+    if (message.content === 'VCS') {
+    	message.reply('Testing pls');
   	}
 });
 
-client.on('message', message => {
-    if (message.content === 'Voracious W') {
-    	message('GG Voracious');
-  	}
-});
-
-// THIS  MUST  BE  THIS  WAY
 client.login(process.env.BOT_TOKEN);
