@@ -6,14 +6,20 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'VCS L') {
-    	message.reply('You Lost. :/');
+    if (message.content === 'A') {
+    	message.reply('A');
   	}
 });
 
 client.on('message', message => {
-    if (message.content === 'VCS W') {
-    	message.reply('You won!');
+    if (message.content === 'B') {
+    	message('B');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'C') {
+    	client.message('C');
   	}
 });
 
