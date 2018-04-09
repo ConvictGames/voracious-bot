@@ -6,11 +6,14 @@ client.on('ready', () => {
 });
 
 client.on('message', message => {
-    if (message.content === 'Voracious W') {
-    	client.reply('Win');
-client.on('message', message => {
     if (message.content === 'Voracious L') {
-    	client.send('Loss');
+    	message.reply('Better luck next time');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'Voracious W') {
+    	message('GG Voracious');
   	}
 });
 
