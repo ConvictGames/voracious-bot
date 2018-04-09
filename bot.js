@@ -7,7 +7,13 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'VCS L') {
-    	message.reply('Testing Loss');
+    	message.reply('You Lost. :/');
+  	}
+});
+
+client.on('message', message => {
+    if (message.content === 'VCS W') {
+    	message.reply('You won!');
   	}
 });
 
