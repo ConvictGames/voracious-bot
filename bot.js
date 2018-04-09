@@ -7,19 +7,19 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'A') {
-    	message.reply('A');
+    	client.message.send('A');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'B') {
-    	message('B');
+    	client.message.send('B');
   	}
 });
 
 client.on('message', message => {
     if (message.content === 'C') {
-    	client.message('C');
+    	client.message.send('C');
   	}
 });
 
