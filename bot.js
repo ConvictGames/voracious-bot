@@ -7,9 +7,7 @@ client.on('ready', () => {
 
 client.on('message', message => {
     if (message.content === 'Voracious W') {
-    	message.reply('Data reported');
-    if (message.content === 'Voracious L') {
-    	message.reply('Data reported');
+    	message.reply('Data Processed');
   	}
 });
 
